@@ -1,0 +1,54 @@
+
+.header {
+    background-color: white;
+    border-bottom: 2px solid grey;
+    box-shadow: 0px 0px 20px 0px rgb(153, 148, 148);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1000;
+    
+}
+
+.header ol {
+    list-style-type: none;
+    font-size: 17px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    margin-left: -100px;
+    justify-content: center;
+    width: 100%;
+}
+
+.header ol li{
+    color: black;
+    font-family: 'Lucida Grande';
+    display: inline-block;
+    padding: 15px 30px 15px 0px;
+    font-family: Cambria;
+
+}
+
+.header ol li a:hover {
+    color: grey;
+    text-decoration:underline;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    width: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    display:inline-flex;
+}

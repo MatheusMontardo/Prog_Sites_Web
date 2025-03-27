@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/cabecalho.css">
+    <link rel="stylesheet" href="style/cadastro.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="imgs/LOGO_PLACEHOLDER.jpg" id="logo">
+        <ol>
+            <li><a href="index.html">HOME</a></li>
+            <li>CONTATE-NOS</li>
+            <li>LOJA</li>
+            <li><a href="login.html">LOGIN</a></li>
+        </ol>
+    </header>
+
+    <div id="cadastro">
+        <form>
+            <table>
+                <p>FORMULÁRIO DE REGISTRO</p>
+                <tr>
+                    <td>Informe seu nome de usuário:</td>
+                    <td><input type="text" name="login" id="login" required></td>
+                </tr>
+                <tr>
+                    <td>Informe sua senha:</td>
+                    <td><input type="password" name="senha" id="senha" required></td>
+                </tr>
+                <tr>
+                    <td>Informe sua data de nascimento:</td>
+                    <td><input type="date" name="dataNascimento" id="dataNascimento" required></td>
+                </tr>
+                <tr>
+                    <td>Informe seu CPF:</td>
+                    <td><input type="text" name="cpf" id="cpf" required></td>
+                </tr>
+                <tr>
+                    <td>Informe seu e-mail:</td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td>Concorda com os termos de uso?</td>
+                    <td><input type="checkbox" name="concorda" id="concorda"></td>
+                    <td>Aceita Receber e-mails personalizados?</td>
+                    <td><input type="checkbox" name="concorda2" id="concorda2"></td>
+                </tr>
+            </table>
+            <session class="env">
+                <button type="submit" formaction="index.html">ENVIAR</button>
+            </session>
+        </form>
+    </div>
+
+</body>
+
+</html>
